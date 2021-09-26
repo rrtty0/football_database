@@ -1,4 +1,4 @@
-package mmsshh;
+package BaseClasses;
 
 
 import javax.swing.*;
@@ -89,16 +89,16 @@ public class MainFrame extends JFrame {
 
         setJMenuBar(menuBar);
 
-        saveButton = new JButton(new ImageIcon("save.png"));
-        openButton = new JButton(new ImageIcon("open.png"));
-        addButton = new JButton(new ImageIcon("add.png"));
-        editButton = new JButton(new ImageIcon("edit.png"));
-        deleteButton = new JButton(new ImageIcon("delete.png"));
-        adminButton = new JButton(new ImageIcon("administrator.png"));
-        footballerListButton = new JButton(new ImageIcon("footballer.png"));
-        teamListButton = new JButton(new ImageIcon("team.png"));
-        matchListButton = new JButton(new ImageIcon("match.png"));
-        tournListButton = new JButton(new ImageIcon("cup.png"));
+        saveButton = new JButton(new ImageIcon("src/Images/save.png"));
+        openButton = new JButton(new ImageIcon("src/Images/open.png"));
+        addButton = new JButton(new ImageIcon("src/Images/add.png"));
+        editButton = new JButton(new ImageIcon("src/Images/edit.png"));
+        deleteButton = new JButton(new ImageIcon("src/Images/delete.png"));
+        adminButton = new JButton(new ImageIcon("src/Images/administrator.png"));
+        footballerListButton = new JButton(new ImageIcon("src/Images/footballer.png"));
+        teamListButton = new JButton(new ImageIcon("src/Images/team.png"));
+        matchListButton = new JButton(new ImageIcon("src/Images/match.png"));
+        tournListButton = new JButton(new ImageIcon("src/Images/cup.png"));
 
         saveButton.setToolTipText("Сохранить список");
         openButton.setToolTipText("Открыть список");

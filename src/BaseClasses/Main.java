@@ -1,5 +1,4 @@
-package mmsshh;
-
+package BaseClasses;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,10 +9,7 @@ public class Main {
 
     public static MainFrame mainFrame;
 
-
     public static void main(String[] args) {
-	// write your code here
-
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -21,7 +17,7 @@ public class Main {
                 mainFrame.setTitle("Футбольная база данных - [Пользователь]");
                 mainFrame.setSize(MainFrame.DEFAULT_WIDTH, MainFrame.DEFAULT_HEIGHT);
                 mainFrame.setVisible(true);
-                mainFrame.setIconImage(new ImageIcon("ball.png").getImage());
+                mainFrame.setIconImage(new ImageIcon("src/Images/ball.png").getImage());
                 mainFrame.addWindowListener(new WindowListener() {
                     @Override
                     public void windowOpened(WindowEvent e) {

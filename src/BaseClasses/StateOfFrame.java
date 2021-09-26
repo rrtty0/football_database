@@ -1,4 +1,4 @@
-package mmsshh;
+package BaseClasses;
 
 public enum StateOfFrame {
     FOOTBALLERS_STATE,

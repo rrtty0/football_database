@@ -1,8 +1,8 @@
 package DBConnection;
 
-import mmsshh.DialogFrame;
-import mmsshh.Main;
-import mmsshh.MyMessages;
+import BaseClasses.DialogFrame;
+import BaseClasses.Main;
+import BaseClasses.MyMessages;
 
 import javax.swing.table.DefaultTableModel;
 import java.sql.*;
