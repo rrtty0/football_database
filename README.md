@@ -12,7 +12,6 @@
 ---
 
 Application in which database of football players, football clubs, matches and tournaments for football organiztions are implemented
-Implemented by Java 8.
 
 <a id="anc1"></a>
 
